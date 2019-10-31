@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zapfen", "zapfen.csproj", "{BE28E277-84DA-4BDA-B564-40B500A67143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "array", "..\array\array.csproj", "{251BC441-024E-40D1-AAA3-FABF02841821}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE28E277-84DA-4BDA-B564-40B500A67143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE28E277-84DA-4BDA-B564-40B500A67143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE28E277-84DA-4BDA-B564-40B500A67143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE28E277-84DA-4BDA-B564-40B500A67143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{251BC441-024E-40D1-AAA3-FABF02841821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251BC441-024E-40D1-AAA3-FABF02841821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251BC441-024E-40D1-AAA3-FABF02841821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251BC441-024E-40D1-AAA3-FABF02841821}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCB8ED80-FC9F-4628-88E8-416DD26259BB}
+	EndGlobalSection
+EndGlobal
