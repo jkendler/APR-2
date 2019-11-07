@@ -27,6 +27,7 @@ namespace HueGetränke
             foreach(Flasche f in schachtel)
             {
                 literGesamt += f.Liter();
+                Console.WriteLine("Liter {0}",f.Liter());
             }
 
             Console.WriteLine("Liter (gesamt): {0}",literGesamt);
