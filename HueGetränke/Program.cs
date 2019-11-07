@@ -10,6 +10,27 @@ namespace HueGetränke
     {
         static void Main(string[] args)
         {
+
+            List<Flasche> schachtel = new List<Flasche>();
+            schachtel.Add(new Flasche() { Durchmesser = 7, Hoehe = 25 });
+            schachtel.Add(new Flasche() { Durchmesser = 7, Hoehe = 25 });
+
+            schachtel.Add(new Flasche() { Durchmesser = 4, Hoehe = 20 });
+
+            schachtel.Add(new Flasche() { Durchmesser = 8, Hoehe = 15 });
+            schachtel.Add(new Flasche() { Durchmesser = 8, Hoehe = 15 });
+            schachtel.Add(new Flasche() { Durchmesser = 8, Hoehe = 15 });
+            schachtel.Add(new Flasche() { Durchmesser = 8, Hoehe = 15 });
+            schachtel.Add(new Flasche() { Durchmesser = 8, Hoehe = 15 });
+
+            double literGesamt = 0;
+            foreach(Flasche f in schachtel)
+            {
+                literGesamt += f.Liter();
+            }
+
+            Console.WriteLine("Liter (gesamt): {0}",literGesamt);
+
             
 
         }
